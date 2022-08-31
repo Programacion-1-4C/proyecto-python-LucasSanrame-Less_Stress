@@ -20,7 +20,6 @@ if respuesta_1 == "si":
          for j in range(1, 11):
            posiciones[f"{i}{j}"] = f"barco"
         d = sample(list(posiciones), 40)
-        print(d)
         while barcos_restantes != 0:
          seleccion = input("Seleccione un cuadrante entre el a1 y el j10: -")
          if seleccion in d:
@@ -39,7 +38,6 @@ if respuesta_1 == "si":
             for j in range(1, 11):
               posiciones[f"{i}{j}"] = f"barco"
         d = sample(list(posiciones), 20)
-        print(d)
         while barcos_restantes != 0:
            seleccion = input("Seleccione un cuadrante entre el a1 y el j10: -")
            if seleccion in d:
@@ -58,7 +56,6 @@ if respuesta_1 == "si":
             for j in range(1, 11):
               posiciones[f"{i}{j}"] = f"barco"
         d = sample(list(posiciones), 10)
-        print(d)
         while barcos_restantes != 0:
            seleccion = input("Seleccione un cuadrante entre el a1 y el j10: -")
            if seleccion in d:
