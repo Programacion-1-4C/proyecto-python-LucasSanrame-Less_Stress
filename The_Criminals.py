@@ -1,7 +1,7 @@
 import random
 def Menu_j():
     import Menu
-vida_enemigo= 1250
+vida_enemigo= 500
 hola = input("¿Quieres jugar? -")
 def opciones():
     print("ATACAR / SALUD")
