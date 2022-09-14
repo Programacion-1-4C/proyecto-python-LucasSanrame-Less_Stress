@@ -86,6 +86,6 @@ if respuesta_1 == "si":
                  respuesta_1 = input("¿Quieres jugar otra vez? -")
            else:
               no_paso()
-else:
+if respuesta_1 == "no":
   print("Que tenga un buen dia")
   Menu_j()
